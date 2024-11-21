@@ -10,7 +10,7 @@ const ProductCard = ({
   price: string;
 }) => {
   return (
-    <div className="bg-slate-400 shadow-xl rounded-lg flex flex-col">
+    <div className="bg-slate-400 shadow-xl rounded-lg flex flex-col transform hover:translate-x-3 hover:translate-y-2 hover:scale-105 transition duration-200 ease-in-out">
       <div className="relative h-96 ">
         <Image src={image} alt={title} fill />
       </div>
